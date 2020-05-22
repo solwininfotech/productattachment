@@ -1,0 +1,22 @@
+{
+    "name": "solwin/productattachment",
+    "description": "Product Attachments extension for Magento 2 makes product files available for download on product detail page.",
+    "type": "magento2-module",
+    "version": "1.1.0",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\ProductAttachment\\": ""
+        }
+    }
+}
